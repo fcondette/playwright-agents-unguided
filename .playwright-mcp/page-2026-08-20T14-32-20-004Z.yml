@@ -1,0 +1,42 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=f3e602]:
+      - generic [ref=f3e603]: TechHub
+      - generic [ref=f3e608]:
+        - generic [ref=f3e609]:
+          - heading "Connexion" [level=3] [ref=f3e610]
+          - paragraph [ref=f3e611]: Accédez à votre espace personnel
+        - generic [ref=f3e613]:
+          - tablist [ref=f3e614]:
+            - tab "Connexion" [selected] [ref=f3e615] [cursor=pointer]
+            - tab "Inscription" [ref=f3e616] [cursor=pointer]
+          - tabpanel "Connexion" [ref=f3e617]:
+            - generic [ref=f3e618]:
+              - generic [ref=f3e619]:
+                - text: Email
+                - textbox "Email" [ref=f3e624]:
+                  - /placeholder: votre@email.com
+              - generic [ref=f3e625]:
+                - generic [ref=f3e626]:
+                  - generic [ref=f3e627]: Mot de passe
+                  - button "Mot de passe oublié ?" [ref=f3e628] [cursor=pointer]
+                - generic [ref=f3e629]:
+                  - textbox "Mot de passe" [ref=f3e633]:
+                    - /placeholder: ••••••••
+                  - button [ref=f3e634] [cursor=pointer]
+              - button "Se connecter" [ref=f3e638] [cursor=pointer]
+      - paragraph [ref=f3e639]:
+        - text: En continuant, vous acceptez nos
+        - link "Conditions d'utilisation" [ref=f3e640] [cursor=pointer]:
+          - /url: "#"
+        - text: et notre
+        - link "Politique de confidentialité" [ref=f3e641] [cursor=pointer]:
+          - /url: "#"
+  - complementary "Edit with Lovable" [ref=f3e309]:
+    - link "Edit with Lovable" [ref=f3e310] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/lovp_0rewj1v2fv99a9r25rp0m5e892?utm_source=lovable-badge
+      - generic [ref=f3e311]: Edit with
+    - button "Dismiss" [ref=f3e317] [cursor=pointer]

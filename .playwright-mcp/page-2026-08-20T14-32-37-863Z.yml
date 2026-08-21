@@ -1,0 +1,48 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=f3e602]:
+      - generic [ref=f3e603]: TechHub
+      - generic [ref=f3e608]:
+        - generic [ref=f3e609]:
+          - heading "Créer un compte" [level=3] [ref=f3e642]
+          - paragraph [ref=f3e611]: Rejoignez la communauté TechHub
+        - generic [ref=f3e613]:
+          - tablist [ref=f3e614]:
+            - tab "Connexion" [ref=f3e615] [cursor=pointer]
+            - tab "Inscription" [active] [selected] [ref=f3e616] [cursor=pointer]
+          - tabpanel "Inscription" [ref=f3e643]:
+            - generic [ref=f3e644]:
+              - generic [ref=f3e645]:
+                - text: Nom complet
+                - textbox "Nom complet" [ref=f3e650]:
+                  - /placeholder: Jean Dupont
+              - generic [ref=f3e651]:
+                - text: Email
+                - textbox "Email" [ref=f3e656]:
+                  - /placeholder: votre@email.com
+              - generic [ref=f3e657]:
+                - text: Mot de passe
+                - generic [ref=f3e658]:
+                  - textbox "Mot de passe" [ref=f3e662]:
+                    - /placeholder: ••••••••
+                  - button [ref=f3e663] [cursor=pointer]
+              - generic [ref=f3e667]:
+                - text: Confirmer le mot de passe
+                - textbox "Confirmer le mot de passe" [ref=f3e672]:
+                  - /placeholder: ••••••••
+              - button "Créer mon compte" [ref=f3e673] [cursor=pointer]
+      - paragraph [ref=f3e639]:
+        - text: En continuant, vous acceptez nos
+        - link "Conditions d'utilisation" [ref=f3e640] [cursor=pointer]:
+          - /url: "#"
+        - text: et notre
+        - link "Politique de confidentialité" [ref=f3e641] [cursor=pointer]:
+          - /url: "#"
+  - complementary "Edit with Lovable" [ref=f3e309]:
+    - link "Edit with Lovable" [ref=f3e310] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/lovp_0rewj1v2fv99a9r25rp0m5e892?utm_source=lovable-badge
+      - generic [ref=f3e311]: Edit with
+    - button "Dismiss" [ref=f3e317] [cursor=pointer]

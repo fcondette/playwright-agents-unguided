@@ -1,0 +1,127 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=f3e482]:
+      - banner [ref=f3e483]:
+        - generic [ref=f3e485]:
+          - link "TechHub" [ref=f3e486] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=f3e491]:
+            - link "Accueil" [ref=f3e492] [cursor=pointer]:
+              - /url: /
+            - link "Produits" [ref=f3e493] [cursor=pointer]:
+              - /url: /products
+            - link "À propos" [ref=f3e494] [cursor=pointer]:
+              - /url: /about
+            - link "Contact" [ref=f3e495] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f3e496]:
+            - button [ref=f3e497] [cursor=pointer]
+            - link [ref=f3e498] [cursor=pointer]:
+              - /url: /cart
+              - button "2" [ref=f3e499]
+            - link [ref=f3e501] [cursor=pointer]:
+              - /url: /auth
+              - button [ref=f3e502]
+      - main [ref=f3e503]:
+        - generic [ref=f3e505]:
+          - heading "Connexion requise" [level=1] [ref=f3e510]
+          - paragraph [ref=f3e511]: Connectez-vous pour finaliser votre commande et suivre son état en temps réel.
+          - generic [ref=f3e512]:
+            - link [ref=f3e513] [cursor=pointer]:
+              - /url: /auth
+              - button "Se connecter" [ref=f3e514]
+            - link [ref=f3e515] [cursor=pointer]:
+              - /url: /cart
+              - button "Retour au panier" [ref=f3e516]
+      - contentinfo [ref=f3e517]:
+        - generic [ref=f3e518]:
+          - generic [ref=f3e519]:
+            - generic [ref=f3e520]:
+              - link "TechHub" [ref=f3e521] [cursor=pointer]:
+                - /url: /
+              - paragraph [ref=f3e526]: La technologie qui simplifie votre quotidien. Découvrez les meilleurs produits tech sélectionnés par nos experts.
+              - generic [ref=f3e527]:
+                - link "Facebook" [ref=f3e528] [cursor=pointer]:
+                  - /url: "#"
+                - link "Twitter" [ref=f3e531] [cursor=pointer]:
+                  - /url: "#"
+                - link "Instagram" [ref=f3e534] [cursor=pointer]:
+                  - /url: "#"
+                - link "LinkedIn" [ref=f3e538] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f3e543]:
+              - heading "Produits" [level=4] [ref=f3e544]
+              - list [ref=f3e545]:
+                - listitem [ref=f3e546]:
+                  - link "Accessoires" [ref=f3e547] [cursor=pointer]:
+                    - /url: /products?category=accessories
+                - listitem [ref=f3e548]:
+                  - link "Maison Connectée" [ref=f3e549] [cursor=pointer]:
+                    - /url: /products?category=smart-home
+                - listitem [ref=f3e550]:
+                  - link "Gaming" [ref=f3e551] [cursor=pointer]:
+                    - /url: /products?category=gaming
+                - listitem [ref=f3e552]:
+                  - link "Bureau" [ref=f3e553] [cursor=pointer]:
+                    - /url: /products?category=office
+            - generic [ref=f3e554]:
+              - heading "Entreprise" [level=4] [ref=f3e555]
+              - list [ref=f3e556]:
+                - listitem [ref=f3e557]:
+                  - link "À propos" [ref=f3e558] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f3e559]:
+                  - link "Carrières" [ref=f3e560] [cursor=pointer]:
+                    - /url: /checkout
+                - listitem [ref=f3e561]:
+                  - link "Presse" [ref=f3e562] [cursor=pointer]:
+                    - /url: /checkout
+                - listitem [ref=f3e563]:
+                  - link "Blog" [ref=f3e564] [cursor=pointer]:
+                    - /url: /checkout
+            - generic [ref=f3e565]:
+              - heading "Support" [level=4] [ref=f3e566]
+              - list [ref=f3e567]:
+                - listitem [ref=f3e568]:
+                  - link "Contact" [ref=f3e569] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f3e570]:
+                  - link "FAQ" [ref=f3e571] [cursor=pointer]:
+                    - /url: /contact#faq
+                - listitem [ref=f3e572]:
+                  - link "Livraison" [ref=f3e573] [cursor=pointer]:
+                    - /url: /checkout
+                - listitem [ref=f3e574]:
+                  - link "Retours" [ref=f3e575] [cursor=pointer]:
+                    - /url: /checkout
+            - generic [ref=f3e576]:
+              - heading "Légal" [level=4] [ref=f3e577]
+              - list [ref=f3e578]:
+                - listitem [ref=f3e579]:
+                  - link "CGV" [ref=f3e580] [cursor=pointer]:
+                    - /url: /checkout
+                - listitem [ref=f3e581]:
+                  - link "Confidentialité" [ref=f3e582] [cursor=pointer]:
+                    - /url: /checkout
+                - listitem [ref=f3e583]:
+                  - link "Cookies" [ref=f3e584] [cursor=pointer]:
+                    - /url: /checkout
+                - listitem [ref=f3e585]:
+                  - link "Mentions légales" [ref=f3e586] [cursor=pointer]:
+                    - /url: /checkout
+          - generic [ref=f3e587]:
+            - generic [ref=f3e588]:
+              - link "contact@techhub.fr" [ref=f3e589] [cursor=pointer]:
+                - /url: mailto:contact@techhub.fr
+              - link "01 23 45 67 89" [ref=f3e593] [cursor=pointer]:
+                - /url: tel:+33123456789
+              - generic [ref=f3e596]: Paris, France
+            - paragraph [ref=f3e600]: © 2026 TechHub. Tous droits réservés.
+  - complementary "Edit with Lovable" [ref=f3e309]:
+    - link "Edit with Lovable" [ref=f3e310] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/lovp_0rewj1v2fv99a9r25rp0m5e892?utm_source=lovable-badge
+      - generic [ref=f3e311]: Edit with
+    - button "Dismiss" [ref=f3e317] [cursor=pointer]

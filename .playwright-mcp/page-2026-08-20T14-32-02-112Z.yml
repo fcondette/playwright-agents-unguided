@@ -1,0 +1,161 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=f3e329]:
+      - banner [ref=f3e330]:
+        - generic [ref=f3e332]:
+          - link "TechHub" [ref=f3e333] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=f3e338]:
+            - link "Accueil" [ref=f3e339] [cursor=pointer]:
+              - /url: /
+            - link "Produits" [ref=f3e340] [cursor=pointer]:
+              - /url: /products
+            - link "À propos" [ref=f3e341] [cursor=pointer]:
+              - /url: /about
+            - link "Contact" [ref=f3e342] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f3e343]:
+            - button [ref=f3e344] [cursor=pointer]
+            - link [ref=f3e480] [cursor=pointer]:
+              - /url: /cart
+              - button "2" [ref=f3e481]
+            - link [ref=f3e348] [cursor=pointer]:
+              - /url: /auth
+              - button [ref=f3e349]
+      - main [ref=f3e350]:
+        - generic [ref=f3e352]:
+          - generic [ref=f3e353]:
+            - heading "Votre Panier" [level=1] [ref=f3e354]
+            - button "Vider le panier" [ref=f3e355] [cursor=pointer]
+          - generic [ref=f3e356]:
+            - generic [ref=f3e358]:
+              - link [ref=f3e359] [cursor=pointer]:
+                - /url: /product/1
+                - img "Écouteurs Sans Fil Pro" [ref=f3e361]
+              - generic [ref=f3e362]:
+                - generic [ref=f3e363]:
+                  - generic [ref=f3e364]:
+                    - link [ref=f3e365] [cursor=pointer]:
+                      - /url: /product/1
+                      - heading "Écouteurs Sans Fil Pro" [level=3] [ref=f3e366]
+                    - paragraph [ref=f3e367]: 199.99 € / unité
+                  - button [ref=f3e368] [cursor=pointer]
+                - generic [ref=f3e369]:
+                  - generic [ref=f3e370]:
+                    - button [ref=f3e371] [cursor=pointer]
+                    - generic [ref=f3e372]: "2"
+                    - button [active] [ref=f3e373] [cursor=pointer]
+                  - paragraph [ref=f3e374]: 399.98 €
+            - generic [ref=f3e376]:
+              - heading "Récapitulatif" [level=2] [ref=f3e377]
+              - generic [ref=f3e378]:
+                - generic [ref=f3e379]:
+                  - generic [ref=f3e380]: Sous-total (2 articles)
+                  - generic [ref=f3e381]: 399.98 €
+                - generic [ref=f3e382]:
+                  - generic [ref=f3e383]: Livraison
+                  - generic [ref=f3e384]: Gratuite
+                - generic [ref=f3e385]:
+                  - generic [ref=f3e386]:
+                    - generic [ref=f3e387]: Total
+                    - generic [ref=f3e388]: 399.98 €
+                  - paragraph [ref=f3e389]: TVA incluse
+              - link [ref=f3e390] [cursor=pointer]:
+                - /url: /checkout
+                - button "Passer au paiement" [ref=f3e391]
+              - link [ref=f3e392] [cursor=pointer]:
+                - /url: /products
+                - button "Continuer mes achats" [ref=f3e393]
+              - paragraph [ref=f3e395]: 🔒 Paiement 100% sécurisé
+      - contentinfo [ref=f3e396]:
+        - generic [ref=f3e397]:
+          - generic [ref=f3e398]:
+            - generic [ref=f3e399]:
+              - link "TechHub" [ref=f3e400] [cursor=pointer]:
+                - /url: /
+              - paragraph [ref=f3e405]: La technologie qui simplifie votre quotidien. Découvrez les meilleurs produits tech sélectionnés par nos experts.
+              - generic [ref=f3e406]:
+                - link "Facebook" [ref=f3e407] [cursor=pointer]:
+                  - /url: "#"
+                - link "Twitter" [ref=f3e410] [cursor=pointer]:
+                  - /url: "#"
+                - link "Instagram" [ref=f3e413] [cursor=pointer]:
+                  - /url: "#"
+                - link "LinkedIn" [ref=f3e417] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f3e422]:
+              - heading "Produits" [level=4] [ref=f3e423]
+              - list [ref=f3e424]:
+                - listitem [ref=f3e425]:
+                  - link "Accessoires" [ref=f3e426] [cursor=pointer]:
+                    - /url: /products?category=accessories
+                - listitem [ref=f3e427]:
+                  - link "Maison Connectée" [ref=f3e428] [cursor=pointer]:
+                    - /url: /products?category=smart-home
+                - listitem [ref=f3e429]:
+                  - link "Gaming" [ref=f3e430] [cursor=pointer]:
+                    - /url: /products?category=gaming
+                - listitem [ref=f3e431]:
+                  - link "Bureau" [ref=f3e432] [cursor=pointer]:
+                    - /url: /products?category=office
+            - generic [ref=f3e433]:
+              - heading "Entreprise" [level=4] [ref=f3e434]
+              - list [ref=f3e435]:
+                - listitem [ref=f3e436]:
+                  - link "À propos" [ref=f3e437] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f3e438]:
+                  - link "Carrières" [ref=f3e439] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f3e440]:
+                  - link "Presse" [ref=f3e441] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f3e442]:
+                  - link "Blog" [ref=f3e443] [cursor=pointer]:
+                    - /url: /cart
+            - generic [ref=f3e444]:
+              - heading "Support" [level=4] [ref=f3e445]
+              - list [ref=f3e446]:
+                - listitem [ref=f3e447]:
+                  - link "Contact" [ref=f3e448] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f3e449]:
+                  - link "FAQ" [ref=f3e450] [cursor=pointer]:
+                    - /url: /contact#faq
+                - listitem [ref=f3e451]:
+                  - link "Livraison" [ref=f3e452] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f3e453]:
+                  - link "Retours" [ref=f3e454] [cursor=pointer]:
+                    - /url: /cart
+            - generic [ref=f3e455]:
+              - heading "Légal" [level=4] [ref=f3e456]
+              - list [ref=f3e457]:
+                - listitem [ref=f3e458]:
+                  - link "CGV" [ref=f3e459] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f3e460]:
+                  - link "Confidentialité" [ref=f3e461] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f3e462]:
+                  - link "Cookies" [ref=f3e463] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f3e464]:
+                  - link "Mentions légales" [ref=f3e465] [cursor=pointer]:
+                    - /url: /cart
+          - generic [ref=f3e466]:
+            - generic [ref=f3e467]:
+              - link "contact@techhub.fr" [ref=f3e468] [cursor=pointer]:
+                - /url: mailto:contact@techhub.fr
+              - link "01 23 45 67 89" [ref=f3e472] [cursor=pointer]:
+                - /url: tel:+33123456789
+              - generic [ref=f3e475]: Paris, France
+            - paragraph [ref=f3e479]: © 2026 TechHub. Tous droits réservés.
+  - complementary "Edit with Lovable" [ref=f3e309]:
+    - link "Edit with Lovable" [ref=f3e310] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/lovp_0rewj1v2fv99a9r25rp0m5e892?utm_source=lovable-badge
+      - generic [ref=f3e311]: Edit with
+    - button "Dismiss" [ref=f3e317] [cursor=pointer]

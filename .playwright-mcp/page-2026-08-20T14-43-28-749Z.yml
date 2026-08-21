@@ -1,0 +1,123 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=f7e331]:
+      - banner [ref=f7e332]:
+        - generic [ref=f7e334]:
+          - link "TechHub" [ref=f7e335] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=f7e340]:
+            - link "Accueil" [ref=f7e341] [cursor=pointer]:
+              - /url: /
+            - link "Produits" [ref=f7e342] [cursor=pointer]:
+              - /url: /products
+            - link "À propos" [ref=f7e343] [cursor=pointer]:
+              - /url: /about
+            - link "Contact" [ref=f7e344] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f7e345]:
+            - button [ref=f7e346] [cursor=pointer]
+            - link [ref=f7e482] [cursor=pointer]:
+              - /url: /cart
+              - button [ref=f7e483]
+            - link [ref=f7e350] [cursor=pointer]:
+              - /url: /auth
+              - button [ref=f7e351]
+      - main [ref=f7e352]:
+        - generic [ref=f7e354]:
+          - heading "Votre panier est vide" [level=1] [ref=f7e487]
+          - paragraph [ref=f7e488]: Découvrez notre catalogue et ajoutez des produits à votre panier.
+          - link [ref=f7e489] [cursor=pointer]:
+            - /url: /products
+            - button "Voir les produits" [ref=f7e490]
+      - contentinfo [ref=f7e398]:
+        - generic [ref=f7e399]:
+          - generic [ref=f7e400]:
+            - generic [ref=f7e401]:
+              - link "TechHub" [ref=f7e402] [cursor=pointer]:
+                - /url: /
+              - paragraph [ref=f7e407]: La technologie qui simplifie votre quotidien. Découvrez les meilleurs produits tech sélectionnés par nos experts.
+              - generic [ref=f7e408]:
+                - link "Facebook" [ref=f7e409] [cursor=pointer]:
+                  - /url: "#"
+                - link "Twitter" [ref=f7e412] [cursor=pointer]:
+                  - /url: "#"
+                - link "Instagram" [ref=f7e415] [cursor=pointer]:
+                  - /url: "#"
+                - link "LinkedIn" [ref=f7e419] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f7e424]:
+              - heading "Produits" [level=4] [ref=f7e425]
+              - list [ref=f7e426]:
+                - listitem [ref=f7e427]:
+                  - link "Accessoires" [ref=f7e428] [cursor=pointer]:
+                    - /url: /products?category=accessories
+                - listitem [ref=f7e429]:
+                  - link "Maison Connectée" [ref=f7e430] [cursor=pointer]:
+                    - /url: /products?category=smart-home
+                - listitem [ref=f7e431]:
+                  - link "Gaming" [ref=f7e432] [cursor=pointer]:
+                    - /url: /products?category=gaming
+                - listitem [ref=f7e433]:
+                  - link "Bureau" [ref=f7e434] [cursor=pointer]:
+                    - /url: /products?category=office
+            - generic [ref=f7e435]:
+              - heading "Entreprise" [level=4] [ref=f7e436]
+              - list [ref=f7e437]:
+                - listitem [ref=f7e438]:
+                  - link "À propos" [ref=f7e439] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f7e440]:
+                  - link "Carrières" [ref=f7e441] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f7e442]:
+                  - link "Presse" [ref=f7e443] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f7e444]:
+                  - link "Blog" [ref=f7e445] [cursor=pointer]:
+                    - /url: /cart
+            - generic [ref=f7e446]:
+              - heading "Support" [level=4] [ref=f7e447]
+              - list [ref=f7e448]:
+                - listitem [ref=f7e449]:
+                  - link "Contact" [ref=f7e450] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f7e451]:
+                  - link "FAQ" [ref=f7e452] [cursor=pointer]:
+                    - /url: /contact#faq
+                - listitem [ref=f7e453]:
+                  - link "Livraison" [ref=f7e454] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f7e455]:
+                  - link "Retours" [ref=f7e456] [cursor=pointer]:
+                    - /url: /cart
+            - generic [ref=f7e457]:
+              - heading "Légal" [level=4] [ref=f7e458]
+              - list [ref=f7e459]:
+                - listitem [ref=f7e460]:
+                  - link "CGV" [ref=f7e461] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f7e462]:
+                  - link "Confidentialité" [ref=f7e463] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f7e464]:
+                  - link "Cookies" [ref=f7e465] [cursor=pointer]:
+                    - /url: /cart
+                - listitem [ref=f7e466]:
+                  - link "Mentions légales" [ref=f7e467] [cursor=pointer]:
+                    - /url: /cart
+          - generic [ref=f7e468]:
+            - generic [ref=f7e469]:
+              - link "contact@techhub.fr" [ref=f7e470] [cursor=pointer]:
+                - /url: mailto:contact@techhub.fr
+              - link "01 23 45 67 89" [ref=f7e474] [cursor=pointer]:
+                - /url: tel:+33123456789
+              - generic [ref=f7e477]: Paris, France
+            - paragraph [ref=f7e481]: © 2026 TechHub. Tous droits réservés.
+  - complementary "Edit with Lovable" [ref=f7e311]:
+    - link "Edit with Lovable" [ref=f7e312] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/lovp_0rewj1v2fv99a9r25rp0m5e892?utm_source=lovable-badge
+      - generic [ref=f7e313]: Edit with
+    - button "Dismiss" [ref=f7e319] [cursor=pointer]

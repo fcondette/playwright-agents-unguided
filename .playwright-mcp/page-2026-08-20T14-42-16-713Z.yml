@@ -1,0 +1,207 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=f7e3]:
+      - banner [ref=f7e4]:
+        - generic [ref=f7e6]:
+          - link "TechHub" [ref=f7e7] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=f7e12]:
+            - link "Accueil" [ref=f7e13] [cursor=pointer]:
+              - /url: /
+            - link "Produits" [ref=f7e14] [cursor=pointer]:
+              - /url: /products
+            - link "À propos" [ref=f7e15] [cursor=pointer]:
+              - /url: /about
+            - link "Contact" [ref=f7e16] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f7e17]:
+            - button [ref=f7e18] [cursor=pointer]
+            - link [ref=f7e19] [cursor=pointer]:
+              - /url: /cart
+              - button [ref=f7e20]
+            - link [ref=f7e21] [cursor=pointer]:
+              - /url: /auth
+              - button [ref=f7e22]
+      - main [ref=f7e23]:
+        - generic [ref=f7e24]:
+          - navigation [ref=f7e25]:
+            - link "Retour au catalogue" [ref=f7e26] [cursor=pointer]:
+              - /url: /products
+          - generic [ref=f7e29]:
+            - img "Hub USB-C 12-en-1" [ref=f7e32]
+            - generic [ref=f7e33]:
+              - paragraph [ref=f7e34]: Accessoires
+              - heading "Hub USB-C 12-en-1" [level=1] [ref=f7e35]
+              - generic [ref=f7e36]: 4.6 (823 avis)
+              - generic [ref=f7e49]: 89.99 €
+              - paragraph [ref=f7e51]: Hub multiport USB-C avec HDMI 4K, lecteur SD, Ethernet et charge rapide 100W.
+              - generic [ref=f7e52]:
+                - heading "Caractéristiques" [level=3] [ref=f7e53]
+                - list [ref=f7e54]:
+                  - listitem [ref=f7e55]: HDMI 4K@60Hz
+                  - listitem [ref=f7e59]: USB 3.2 x4
+                  - listitem [ref=f7e63]: Lecteur SD/microSD
+                  - listitem [ref=f7e67]: Ethernet Gigabit
+                  - listitem [ref=f7e71]: Power Delivery 100W
+              - paragraph [ref=f7e76]: En stock - Expédition sous 24h
+              - generic [ref=f7e78]:
+                - button "Ajouter au panier" [ref=f7e79] [cursor=pointer]
+                - button [ref=f7e80] [cursor=pointer]
+                - button [ref=f7e81] [cursor=pointer]
+              - generic [ref=f7e82]:
+                - paragraph [ref=f7e89]: Livraison gratuite
+                - paragraph [ref=f7e93]: Garantie 2 ans
+                - paragraph [ref=f7e98]: Retour 30 jours
+          - generic [ref=f7e99]:
+            - heading "Avis clients" [level=2] [ref=f7e100]
+            - generic [ref=f7e101]:
+              - generic [ref=f7e102]:
+                - generic [ref=f7e103]:
+                  - generic [ref=f7e104]: M
+                  - generic [ref=f7e105]:
+                    - paragraph [ref=f7e106]: Marie L.
+                    - generic [ref=f7e107]: Achat vérifié
+                - paragraph [ref=f7e120]: Qualité exceptionnelle ! Les écouteurs sont parfaits, la réduction de bruit est bluffante. Livraison rapide et service client réactif.
+              - generic [ref=f7e121]:
+                - generic [ref=f7e122]:
+                  - generic [ref=f7e123]: T
+                  - generic [ref=f7e124]:
+                    - paragraph [ref=f7e125]: Thomas B.
+                    - generic [ref=f7e126]: Achat vérifié
+                - paragraph [ref=f7e139]: Mon clavier gaming est arrivé en parfait état. Les switches sont ultra réactifs et le RGB est magnifique. Je recommande !
+          - generic [ref=f7e140]:
+            - heading "Produits similaires" [level=2] [ref=f7e141]
+            - generic [ref=f7e142]:
+              - link "Écouteurs Sans Fil Pro Nouveau -20% Accessoires Écouteurs Sans Fil Pro (1247) 199.99 € 249.99 €" [ref=f7e144] [cursor=pointer]:
+                - /url: /product/1
+                - generic [ref=f7e145]:
+                  - generic [ref=f7e146]:
+                    - img "Écouteurs Sans Fil Pro" [ref=f7e147]
+                    - generic [ref=f7e148]:
+                      - generic [ref=f7e149]: Nouveau
+                      - generic [ref=f7e152]: "-20%"
+                    - button [ref=f7e154]
+                  - generic [ref=f7e155]:
+                    - paragraph [ref=f7e156]: Accessoires
+                    - heading "Écouteurs Sans Fil Pro" [level=3] [ref=f7e157]
+                    - generic [ref=f7e158]: (1247)
+                    - generic [ref=f7e171]:
+                      - generic [ref=f7e172]: 199.99 €
+                      - generic [ref=f7e173]: 249.99 €
+              - link "Station de Charge Qi Accessoires Station de Charge Qi (892) 79.99 €" [ref=f7e175] [cursor=pointer]:
+                - /url: /product/6
+                - generic [ref=f7e176]:
+                  - generic [ref=f7e177]:
+                    - img "Station de Charge Qi" [ref=f7e178]
+                    - button [ref=f7e180]
+                  - generic [ref=f7e181]:
+                    - paragraph [ref=f7e182]: Accessoires
+                    - heading "Station de Charge Qi" [level=3] [ref=f7e183]
+                    - generic [ref=f7e184]: (892)
+                    - generic [ref=f7e197]: 79.99 €
+              - link "Enceinte Portable 360 -16% Accessoires Enceinte Portable 360 (756) 159.99 € 189.99 €" [ref=f7e200] [cursor=pointer]:
+                - /url: /product/10
+                - generic [ref=f7e201]:
+                  - generic [ref=f7e202]:
+                    - img "Enceinte Portable 360" [ref=f7e203]
+                    - generic [ref=f7e204]: "-16%"
+                    - button [ref=f7e207]
+                  - generic [ref=f7e208]:
+                    - paragraph [ref=f7e209]: Accessoires
+                    - heading "Enceinte Portable 360" [level=3] [ref=f7e210]
+                    - generic [ref=f7e211]: (756)
+                    - generic [ref=f7e224]:
+                      - generic [ref=f7e225]: 159.99 €
+                      - generic [ref=f7e226]: 189.99 €
+      - contentinfo [ref=f7e227]:
+        - generic [ref=f7e228]:
+          - generic [ref=f7e229]:
+            - generic [ref=f7e230]:
+              - link "TechHub" [ref=f7e231] [cursor=pointer]:
+                - /url: /
+              - paragraph [ref=f7e236]: La technologie qui simplifie votre quotidien. Découvrez les meilleurs produits tech sélectionnés par nos experts.
+              - generic [ref=f7e237]:
+                - link "Facebook" [ref=f7e238] [cursor=pointer]:
+                  - /url: "#"
+                - link "Twitter" [ref=f7e241] [cursor=pointer]:
+                  - /url: "#"
+                - link "Instagram" [ref=f7e244] [cursor=pointer]:
+                  - /url: "#"
+                - link "LinkedIn" [ref=f7e248] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=f7e253]:
+              - heading "Produits" [level=4] [ref=f7e254]
+              - list [ref=f7e255]:
+                - listitem [ref=f7e256]:
+                  - link "Accessoires" [ref=f7e257] [cursor=pointer]:
+                    - /url: /products?category=accessories
+                - listitem [ref=f7e258]:
+                  - link "Maison Connectée" [ref=f7e259] [cursor=pointer]:
+                    - /url: /products?category=smart-home
+                - listitem [ref=f7e260]:
+                  - link "Gaming" [ref=f7e261] [cursor=pointer]:
+                    - /url: /products?category=gaming
+                - listitem [ref=f7e262]:
+                  - link "Bureau" [ref=f7e263] [cursor=pointer]:
+                    - /url: /products?category=office
+            - generic [ref=f7e264]:
+              - heading "Entreprise" [level=4] [ref=f7e265]
+              - list [ref=f7e266]:
+                - listitem [ref=f7e267]:
+                  - link "À propos" [ref=f7e268] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f7e269]:
+                  - link "Carrières" [ref=f7e270] [cursor=pointer]:
+                    - /url: /product/2
+                - listitem [ref=f7e271]:
+                  - link "Presse" [ref=f7e272] [cursor=pointer]:
+                    - /url: /product/2
+                - listitem [ref=f7e273]:
+                  - link "Blog" [ref=f7e274] [cursor=pointer]:
+                    - /url: /product/2
+            - generic [ref=f7e275]:
+              - heading "Support" [level=4] [ref=f7e276]
+              - list [ref=f7e277]:
+                - listitem [ref=f7e278]:
+                  - link "Contact" [ref=f7e279] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f7e280]:
+                  - link "FAQ" [ref=f7e281] [cursor=pointer]:
+                    - /url: /contact#faq
+                - listitem [ref=f7e282]:
+                  - link "Livraison" [ref=f7e283] [cursor=pointer]:
+                    - /url: /product/2
+                - listitem [ref=f7e284]:
+                  - link "Retours" [ref=f7e285] [cursor=pointer]:
+                    - /url: /product/2
+            - generic [ref=f7e286]:
+              - heading "Légal" [level=4] [ref=f7e287]
+              - list [ref=f7e288]:
+                - listitem [ref=f7e289]:
+                  - link "CGV" [ref=f7e290] [cursor=pointer]:
+                    - /url: /product/2
+                - listitem [ref=f7e291]:
+                  - link "Confidentialité" [ref=f7e292] [cursor=pointer]:
+                    - /url: /product/2
+                - listitem [ref=f7e293]:
+                  - link "Cookies" [ref=f7e294] [cursor=pointer]:
+                    - /url: /product/2
+                - listitem [ref=f7e295]:
+                  - link "Mentions légales" [ref=f7e296] [cursor=pointer]:
+                    - /url: /product/2
+          - generic [ref=f7e297]:
+            - generic [ref=f7e298]:
+              - link "contact@techhub.fr" [ref=f7e299] [cursor=pointer]:
+                - /url: mailto:contact@techhub.fr
+              - link "01 23 45 67 89" [ref=f7e303] [cursor=pointer]:
+                - /url: tel:+33123456789
+              - generic [ref=f7e306]: Paris, France
+            - paragraph [ref=f7e310]: © 2026 TechHub. Tous droits réservés.
+  - complementary "Edit with Lovable" [ref=f7e311]:
+    - link "Edit with Lovable" [ref=f7e312] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/lovp_0rewj1v2fv99a9r25rp0m5e892?utm_source=lovable-badge
+      - generic [ref=f7e313]: Edit with
+    - button "Dismiss" [ref=f7e319] [cursor=pointer]
