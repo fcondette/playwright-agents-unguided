@@ -1,6 +1,3 @@
-// spec: specs/plan.md
-// seed: tests/seed.spec.ts
-
 import { test, expect } from "@playwright/test";
 
 const email = process.env.TEST_USER_EMAIL ?? "john.doe2@example.com";

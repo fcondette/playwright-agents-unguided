@@ -1,13 +1,32 @@
-// spec: spec/authenticated-checkout.plan.md
-// seed: tests/seed.spec.ts
-
 import { test, expect } from "@playwright/test";
+
+const email = process.env.TEST_USER_EMAIL ?? "john.doe2@example.com";
+const password = process.env.TEST_USER_PASSWORD ?? "Test12345!";
 
 test.describe("Shipping Address Step", () => {
 	test('"Retour au panier" link on the shipping step returns to the cart without losing items', async ({
 		page,
 	}) => {
 		// 1. Login, add product 1 to the cart, navigate to /checkout.
+
+		await test.step("login", async () => {
+			await page.goto("/");
+			await page.getByTestId("login-button").click();
+			await page.getByTestId("login-email-input").fill(email);
+			await page.getByTestId("login-password-input").fill(password);
+			await page.getByTestId("login-submit-button").click();
+			await expect(
+				page.getByText("Connexion réussie", { exact: true }),
+			).toBeVisible();
+		});
+
+		await test.step("add product 1 to the cart", async () => {
+			await page.getByTestId("nav-link-products").click();
+			await page.getByRole("link", { name: "Écouteurs Sans Fil Pro" }).click();
+			await page.getByTestId("product-detail-add-to-cart").click();
+			await expect(page.getByTestId("cart-count")).toHaveText("1");
+		});
+
 		await page.getByTestId("cart-link").click();
 		await page.getByTestId("checkout-button").click();
 
@@ -27,7 +46,10 @@ test.describe("Shipping Address Step", () => {
 		await expect(page.getByTestId("quantity-1")).toHaveText("1");
 		await expect(page.getByText("Sous-total (1 article)")).toBeVisible();
 		await expect(
-			page.getByText("Total", { exact: true }).locator("..").getByText("199.99 €"),
+			page
+				.getByText("Total", { exact: true })
+				.locator("..")
+				.getByText("199.99 €"),
 		).toBeVisible();
 	});
 });
