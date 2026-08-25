@@ -30,6 +30,8 @@ test.describe("Order Confirmation", () => {
 
 		await page.getByTestId("cart-link").click();
 		await page.getByTestId("checkout-button").click();
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await page.getByTestId("shipping-submit-button").click();
 
 		await page
@@ -55,6 +57,8 @@ test.describe("Order Confirmation", () => {
 
 		await page.getByTestId("cart-link").click();
 		await page.getByTestId("checkout-button").click();
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await page.getByTestId("shipping-submit-button").click();
 
 		await page

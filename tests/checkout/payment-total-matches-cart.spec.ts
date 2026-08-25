@@ -54,6 +54,8 @@ test.describe("Payment Step", () => {
 
 		await test.step("submit the pre-filled shipping-form via shipping-submit-button", async () => {
 			await expect(page.getByTestId("shipping-form")).toBeVisible();
+			await expect(page.getByTestId("shipping-form")).toBeVisible();
+			await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 			await page.getByTestId("shipping-submit-button").click();
 		});
 

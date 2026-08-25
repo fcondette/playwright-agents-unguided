@@ -57,6 +57,8 @@ test.describe("Edge Cases and Price Recalculation", () => {
 			.locator("xpath=following-sibling::*[1]");
 		await expect(livraisonTotal).toHaveText("199.99 €");
 
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await page.getByTestId("shipping-submit-button").click();
 		await expect(
 			page.getByRole("heading", { name: "Paiement sécurisé" }),

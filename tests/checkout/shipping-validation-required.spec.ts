@@ -64,6 +64,7 @@ test.describe("Shipping Address Step", () => {
 
 		// 2. Clear shipping-firstname-input only (leave it empty) and click shipping-submit-button.
 		await firstnameInput.fill("");
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
 		await submitButton.click();
 
 		await expect(livraisonStep).toBeVisible();
@@ -75,6 +76,8 @@ test.describe("Shipping Address Step", () => {
 		// 3. Refill shipping-firstname-input with a valid value, then clear shipping-address-input only, and click shipping-submit-button again.
 		await firstnameInput.fill(firstnameValue);
 		await addressInput.fill("");
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await submitButton.click();
 
 		await expect(livraisonStep).toBeVisible();
@@ -86,6 +89,8 @@ test.describe("Shipping Address Step", () => {
 		// 4. Refill shipping-address-input, then clear shipping-city-input only, and click shipping-submit-button again.
 		await addressInput.fill(addressValue);
 		await cityInput.fill("");
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await submitButton.click();
 
 		await expect(livraisonStep).toBeVisible();
@@ -97,6 +102,8 @@ test.describe("Shipping Address Step", () => {
 		// 5. Refill shipping-city-input, then clear shipping-postalcode-input only, and click shipping-submit-button again.
 		await cityInput.fill(cityValue);
 		await postalcodeInput.fill("");
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await submitButton.click();
 
 		await expect(livraisonStep).toBeVisible();

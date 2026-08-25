@@ -35,6 +35,8 @@ test.describe("Order Confirmation", () => {
 		await test.step("complete checkout (shipping + valid payment) to reach the Confirmation step", async () => {
 			await page.getByTestId("cart-link").click();
 			await page.getByTestId("checkout-button").click();
+			await expect(page.getByTestId("shipping-form")).toBeVisible();
+			await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 			await page.getByTestId("shipping-submit-button").click();
 
 			await page

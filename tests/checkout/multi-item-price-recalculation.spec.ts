@@ -72,6 +72,8 @@ test.describe("Edge Cases and Price Recalculation", () => {
 		const shippingForm = page.getByTestId("shipping-form");
 		await expect(shippingForm).toBeVisible();
 
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 		await page.getByTestId("shipping-submit-button").click();
 
 		// expect: Paiement step shows 'Total à payer' = 469.96 €, matching the cart total exactly

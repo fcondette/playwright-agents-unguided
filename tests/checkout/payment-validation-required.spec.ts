@@ -35,6 +35,8 @@ test.describe("Payment Step", () => {
 		await test.step("navigate to checkout and reach the Paiement step", async () => {
 			await page.getByTestId("cart-link").click();
 			await page.getByTestId("checkout-button").click();
+			await expect(page.getByTestId("shipping-form")).toBeVisible();
+			await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue("");
 			await page.getByTestId("shipping-submit-button").click();
 		});
 

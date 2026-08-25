@@ -37,7 +37,7 @@ test.describe("Shipping Address Step", () => {
 		const shippingForm = page.getByTestId("shipping-form");
 		await expect(shippingForm).toBeVisible();
 		await expect(page.getByLabel("Prénom")).not.toHaveValue("");
-		await expect(page.getByLabel("Nom")).not.toHaveValue("");
+		await expect(page.getByLabel("Nom", { exact: true })).not.toHaveValue("");
 		await expect(page.getByLabel("Email")).toHaveValue(email);
 		await expect(page.getByLabel("Téléphone")).not.toHaveValue("");
 		await expect(page.getByLabel("Adresse")).not.toHaveValue("");
@@ -50,6 +50,10 @@ test.describe("Shipping Address Step", () => {
 		const cartTotalText = await cartTotal.innerText();
 
 		// 2. Click shipping-submit-button ('Continuer vers le paiement') without changing any field.
+		await expect(page.getByTestId("shipping-form")).toBeVisible();
+		await expect(page.getByTestId("shipping-firstname-input")).not.toHaveValue(
+			"",
+		);
 		await page.getByTestId("shipping-submit-button").click();
 
 		const paiementStepLabel = page.getByText("Paiement", { exact: true });
