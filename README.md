@@ -12,9 +12,9 @@ objects, no fixtures, and login duplicated across all 24 spec files. Under
 
 The guided counterpart — the same pipeline, given a `CLAUDE.md` encoding
 conventions from a hand-written suite — is at
-[MissionPlaywrightGuidedAI](https://github.com/fcondette/MissionPlaywrightGuidedAI).
+[playwright-agents-guided](https://github.com/fcondette/playwright-agents-guided).
 A full comparison of the two runs is in
-[COMPARISON.md](https://github.com/fcondette/MissionPlaywrightGuidedAI/blob/main/COMPARISON.md).
+[COMPARISON.md](https://github.com/fcondette/playwright-agents-guided/blob/main/COMPARISON.md).
 
 Everything below documents the setup, including the traps encountered along the
 way.
@@ -121,7 +121,7 @@ Two constraints:
   did. Use `test.step()` for structure within the one test.
 - **Cart state must be built through in-app clicks.** On this application, cart
   contents are held only in client-side memory: `page.goto()` or a page reload
-  clears them. See `FINDINGS.md` in the hand-written repository.
+  clears them. See [FINDINGS.md](https://github.com/fcondette/MissionPlaywrightShopProject/blob/main/FINDINGS.md) in the hand-written repository.
 
 ```typescript
 import { test, expect } from "@playwright/test";
@@ -167,7 +167,7 @@ the MCP server runs under.
 ## 6. First session
 
 ```bash
-cd /home/fred/dev/Playwright/MissionPlaywrightAI
+cd /path/to/your/repo
 claude
 ```
 
